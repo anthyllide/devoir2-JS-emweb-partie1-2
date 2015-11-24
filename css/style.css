@@ -1,0 +1,36 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+#button {
+    margin : 20px auto;
+    height : 30px;
+    width : 100px;
+    background-color : #bfc4ce;
+    border : 1px ridge grey;
+    border-radius : 2px;
+    font-family : Arial;
+    font-size : 15px;
+    line-height: 30px;
+    text-align : center;
+    cursor : pointer;
+}
+
+#button:hover {
+    color : white;
+    background-color : grey;
+}
+
+#myForm {
+    margin : 10px 0 0 50px; 
+}
+#list {
+    width : 150px;
+}
+
+#response {
+    margin-top: 20px;
+    margin-left: 50px;
+    color : blue;
+}
