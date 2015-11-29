@@ -127,7 +127,9 @@ addEvent(window , 'load', function (){
                 
                 var xhr = new XMLHttpRequest ();
                 
-                xhr.open('GET', AmericanNote.phpPath+'?note='+selectNote);
+                var value1 = encodeURIComponent(selectNote);
+                
+                xhr.open('GET', AmericanNote.phpPath+'?note='+value1);
                          
                 addEvent(xhr,'readystatechange',function(){
                          
